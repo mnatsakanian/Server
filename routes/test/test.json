@@ -1,0 +1,36 @@
+{
+  "_id": "591ecaaa83976471353f1cb3",
+  "time":1800000,
+  "topic":"JavaScript Basics",
+  "description": "This test covering JavaScript Basics. Trainee level.",
+  "accessType": "public",
+  "tags":[
+    "JavaScript"
+  ],
+  "questions": [
+    {
+      "_id": "591ecaa783976471353f1cb2",
+      "question" : "What is Javascript?",
+      "type": "choise",
+      "options" : [
+        "Modern Framework of Java",
+        "Low-level programming language for embedded",
+        "It is a high-level, dynamic, untyped, and interpreted run-time language."
+      ],
+      "correctAnswers" : [ 2 ]
+    },
+    {
+      "_id": "591ecaa783976471353f1abc",
+      "question" : "How could you add element to array in JavaScript?",
+      "type": "multichoise",
+      "options" : [
+        "let array = []; array.push(1); array.push(2);",
+        "let array = []; array[0] = 1; array[1] = 1;",
+        "let array = []; Array.prototype.push.apply(array, [1, 2])",
+        "let array = []: Array.prototype.push.call(array, 1, 2, 3)"
+      ],
+      "correctAnswers": [0, 1, 2, 3]
+    }
+  ]
+
+}
